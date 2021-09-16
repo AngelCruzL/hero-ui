@@ -8,5 +8,87 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <title>Hero UI</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="./images/hero-image-big.webp"
+          type="image/webp"
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="./images/hero-image-small.webp"
+          type="image/webp"
+        />
+
+        <source
+          media="(min-width:768px)"
+          srcset="./images/hero-image-big.png"
+          type="image/jpeg"
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="./images/hero-image-small.png"
+          type="image/jpeg"
+        />
+
+        <img
+          class="hero-image"
+          loading="lazy"
+          decoding="async"
+          src="images/hero-image-small.png"
+          lazyalt="Poster de la serie Loki"
+          title="Poster de la serie Loki"
+          width="360"
+          height="274"
+        />
+      </picture>
+
+      <div class="data-container">
+        <div class="image-container">
+          <picture>
+            <source
+              media="(min-width:360px)"
+              srcset="./images/logo-loki-big.webp"
+              type="image/webp"
+            />
+            <source
+              media="(max-width:359px)"
+              srcset="./images/logo-loki-small.webp"
+              type="image/webp"
+            />
+
+            <source
+              media="(min-width:360px)"
+              srcset="./images/logo-loki-big.png"
+              type="image/jpeg"
+            />
+            <source
+              media="(max-width:359px)"
+              srcset="./images/logo-loki-small.png"
+              type="image/jpeg"
+            />
+
+            <img
+              class="logo"
+              loading="lazy"
+              decoding="async"
+              src="images/logo-loki-small.png"
+              lazyalt="Logo de la serie Loki"
+              title="Logo de la serie Loki"
+              width="78"
+              height="32"
+            />
+          </picture>
+        </div>
+        <h1>¡Disponible Ahora!</h1>
+        <p>
+          Ha llegado el momento de Loki. Una nueva serie original, transmitida
+          exclusivamente en Disney +.
+        </p>
+        <a href="#" class="button">Ir a Disney +</a>
+      </div>
+    </div>
+  </body>
 </html>
