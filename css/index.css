@@ -1,0 +1,18 @@
+:root {
+  --font-regular: "Roboto Regular";
+  --font-bold: "Roboto Bold";
+  --white: #ffffff;
+  --black-1: #202020;
+  --primary: #1b90fc;
+  --grey: #929292;
+  --headline1: 700 2.5rem / normal var(--font-bold);
+  --subtitle1: 700 1.625rem/1.5rem var(--font-bold);
+  --button: 700 0.875rem/1rem var(--font-bold);
+  --headline2: 700 1.5rem / normal var(--font-bold);
+  --body1-regular: 400 1rem/1.5rem var(--font-regular);
+  --body1-bold: 700 1rem/1.5rem var(--font-bold);
+  --body2-bold: 700 0.875rem/1.5rem var(--font-bold);
+  --body2-regular: 400 0.875rem/1.5rem var(--font-regular);
+  --caption-regular: 400 0.75rem/1.5rem var(--font-regular);
+  --caption-bold: 700 0.75rem/1.5rem var(--font-bold);
+}
