@@ -9,42 +9,42 @@
     <title>Hero UI</title>
   </head>
   <body>
+    <picture>
+      <source
+        media="(min-width:770px)"
+        srcset="./images/hero-image-big.webp"
+        type="image/webp"
+      />
+      <source
+        media="(max-width:769px)"
+        srcset="./images/hero-image-small.webp"
+        type="image/webp"
+      />
+
+      <source
+        media="(min-width:770px)"
+        srcset="./images/hero-image-big.png"
+        type="image/jpeg"
+      />
+      <source
+        media="(max-width:769px)"
+        srcset="./images/hero-image-small.png"
+        type="image/jpeg"
+      />
+
+      <img
+        class="hero-image"
+        loading="lazy"
+        decoding="async"
+        src="images/hero-image-small.png"
+        lazyalt="Poster de la serie Loki"
+        title="Poster de la serie Loki"
+        width="360"
+        height="274"
+      />
+    </picture>
+
     <div class="wrapper">
-      <picture>
-        <source
-          media="(min-width:768px)"
-          srcset="./images/hero-image-big.webp"
-          type="image/webp"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="./images/hero-image-small.webp"
-          type="image/webp"
-        />
-
-        <source
-          media="(min-width:768px)"
-          srcset="./images/hero-image-big.png"
-          type="image/jpeg"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="./images/hero-image-small.png"
-          type="image/jpeg"
-        />
-
-        <img
-          class="hero-image"
-          loading="lazy"
-          decoding="async"
-          src="images/hero-image-small.png"
-          lazyalt="Poster de la serie Loki"
-          title="Poster de la serie Loki"
-          width="360"
-          height="274"
-        />
-      </picture>
-
       <div class="data-container">
         <div class="image-container">
           <picture>
